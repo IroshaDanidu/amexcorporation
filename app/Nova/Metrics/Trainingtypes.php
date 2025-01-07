@@ -49,6 +49,6 @@ class Trainingtypes extends Value
 
     public function name()
     {
-        return 'Contact Count';
+        return 'Training types';
     }
 }

@@ -50,6 +50,6 @@ class NewPrograme extends Value
 
     public function name()
     {
-        return 'Contact Count';
+        return 'New Programes';
     }
 }

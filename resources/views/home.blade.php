@@ -38,7 +38,6 @@
                         <!-- ***** Logo End ***** -->
                         <!-- ***** Menu Start ***** -->
                         <ul class="nav">
-                            <li><a href="/" >Home</a></li>
                             <li><a href="/about-us">About Us</a></li>
                             <li><a href="/programs">Training Programs</a></li>
                             @if (Route::has('login'))
@@ -145,9 +144,10 @@
                 <h2 style="padding-bottom: 20px">Ongoing Programs</h2>
 
                 <div class="row">
-                    @php
+
+                   @php
                         $ongoingPrograms = App\Models\TrainingPrograms::where('status', 'Ongoing')->get();
-                    @endphp
+                   @endphp
 
                     @foreach($ongoingPrograms as $program)
                         <div class="col-lg-4 col-md-6 mb-4">

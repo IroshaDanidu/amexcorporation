@@ -49,6 +49,6 @@ class NewUsers extends Value
 
     public function name()
     {
-        return 'Contact Count';
+        return 'New Users';
     }
 }
